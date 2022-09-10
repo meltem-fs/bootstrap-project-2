@@ -22,8 +22,8 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" >
+      <div class="container" id="top">
         <a class="navbar-brand" href="#">Harvey Tech</a>
         <button
           class="navbar-toggler"
@@ -111,7 +111,7 @@
           </div>
         </div>
       </section>
-
+     <!-- PORTFOLIO -->
       <section class="container-fluid text-center bg-light py-5 " id="port">
         <h1 class="display-3">Portfolio</h1>
         <p>
@@ -119,8 +119,22 @@
           eaque ab quibusdam alias cum assumenda praesentium temporibus id
           perspiciatis.
         </p>
-        <div class="row w-75 mx-auto g-3 mt-1 py-5">
-          <div class="card col-lg-4 col-md-6 col-sm-12">
+        <div class="row w-75 mx-auto g-4 mt-1 py-5">
+          <div class="card mm col-lg-4 col-md-6 col-sm-12 ">
+            <img
+              src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
+              class="card-img-top "
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>Lorem, ipsum.</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card mm col-lg-4 col-md-6 col-sm-12">
             <img
               src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
               class="card-img-top"
@@ -134,7 +148,7 @@
               </p>
             </div>
           </div>
-          <div class="card col-lg-4 col-md-6 col-sm-12">
+          <div class="card mm col-lg-4 col-md-6 col-sm-12">
             <img
               src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
               class="card-img-top"
@@ -148,7 +162,7 @@
               </p>
             </div>
           </div>
-          <div class="card col-lg-4 col-md-6 col-sm-12">
+          <div class="card mm col-lg-4 col-md-6 col-sm-12">
             <img
               src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
               class="card-img-top"
@@ -162,7 +176,7 @@
               </p>
             </div>
           </div>
-          <div class="card col-lg-4 col-md-6 col-sm-12">
+          <div class="card mm col-lg-4 col-md-6 col-sm-12">
             <img
               src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
               class="card-img-top"
@@ -176,21 +190,7 @@
               </p>
             </div>
           </div>
-          <div class="card col-lg-4 col-md-6 col-sm-12">
-            <img
-              src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Lorem, ipsum.</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-          <div class="card col-lg-4 col-md-6 col-sm-12">
+          <div class="card mm col-lg-4 col-md-6 col-sm-12">
             <img
               src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png"
               class="card-img-top"
@@ -207,7 +207,7 @@
         </div>
       </section>
     </main>
-    <!-- PORTFOLIO -->
+   
     <!-- ABOUT US -->
     <section class="about text-center w-75 mx-auto py-5" id="about">
       <h1 class="display-3">About Us</h1>
@@ -254,15 +254,16 @@
           />
           <h4 class="mt-3">HARVEY</h4>
           <p>Web Developer</p>
-          <i
+          <a href="index.html" class="social"> <i
             class="fa-brands fa-twitter bg-dark text-light p-2 rounded-circle"
-          ></i>
-          <i
+          ></i></a>
+          <a href="index.html"> <i
             class="fa-brands fa-facebook bg-dark text-light p-2 rounded-circle"
-          ></i>
-          <i
-            class="fa-brands fa-instagram bg-dark text-light p-2 rounded-circle"
-          ></i>
+          ></i></a>
+          <a href="index.html"> <i class="fa-brands fa-linkedin bg-dark text-light p-2 rounded-circle"></i></a>
+         
+         
+          
         </div>
         <div class="col-sm-12 col-lg-4">
           <img
@@ -272,15 +273,14 @@
           />
           <h4 class="mt-3">MARK</h4>
           <p>Fullstack Developer</p>
-          <i
+          <a href="index.html" class="social"> <i
             class="fa-brands fa-twitter bg-dark text-light p-2 rounded-circle"
-          ></i>
-          <i
+          ></i></a>
+          <a href="index.html"> <i
             class="fa-brands fa-facebook bg-dark text-light p-2 rounded-circle"
-          ></i>
-          <i
-            class="fa-brands fa-instagram bg-dark text-light p-2 rounded-circle"
-          ></i>
+          ></i></a>
+          <a href="index.html"> <i class="fa-brands fa-linkedin bg-dark text-light p-2 rounded-circle"></i></a>
+         
         </div>
         <div class="col-sm-12 col-lg-4">
           <img
@@ -290,15 +290,13 @@
           />
           <h4 class="mt-3">NOAH</h4>
           <p>Mobile Developer</p>
-          <i
+         <a href="index.html" class="social"> <i
             class="fa-brands fa-twitter bg-dark text-light p-2 rounded-circle"
-          ></i>
-          <i
+          ></i></a>
+          <a href="index.html"> <i
             class="fa-brands fa-facebook bg-dark text-light p-2 rounded-circle"
-          ></i>
-          <i
-            class="fa-brands fa-instagram bg-dark text-light p-2 rounded-circle"
-          ></i>
+          ></i></a>
+          <a href="index.html"> <i class="fa-brands fa-linkedin bg-dark text-light p-2 rounded-circle"></i></a>
         </div>
       </div>
     </section>
@@ -313,7 +311,7 @@
         </a>
         <a
           class="col-lg-2 col-md-3 col-4"
-          href="https://www.google.com.tr/?hl=tr"
+          href="https://www.goldmansachs.com/"
         >
           <img
             style="width: 10rem"
@@ -323,13 +321,13 @@
         </a>
         <a
           class="col-lg-2 col-md-3 col-4"
-          href="https://www.google.com.tr/?hl=tr"
+          href="https://www.apple.com/"
         >
           <img style="width: 10rem" src="./img/apple_logo-300x124.png" alt="" />
         </a>
         <a
           class="col-lg-2 col-md-3 col-4"
-          href="https://www.google.com.tr/?hl=tr"
+          href="https://www.infosys.com/"
         >
           <img
             style="width: 10rem"
@@ -339,7 +337,7 @@
         </a>
         <a
           class="col-lg-2 col-md-3 col-4"
-          href="https://www.google.com.tr/?hl=tr"
+          href="https://www.deloitte.com/"
         >
           <img
             style="width: 10rem"
@@ -407,6 +405,11 @@
     </div>
 
     <!-- FOOTER -->
+    <section>
+      <div>
+        <p class="text-center mt-5 mb-5">All Rights Reserved 2022</p>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
